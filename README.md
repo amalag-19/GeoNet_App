@@ -35,9 +35,10 @@ R, RShiny
          <img width="500" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/d300890e-5575-4eda-b1ed-2fcbae354b8b">
       
       (c) Set the river overlay (in km): The river stream network is dense and it may take some time for the app to visualize this network on the interactive map. The river overlay parameter allows you to set the distance in km from the spill location up to which the river stream network must be plotted. The pre-set is set to 15 km which takes only 20 seconds to update. The maximum value possible is 50 km. However if you set this to 50 km, it will take more than 1 minute and 30 seconds to visualize the network. Let us keep this parameter at the default value of 15 km for now.
+      
       (d) Enter zoom level: You may change the zoom level to explore specific regions over the interactive map. If you move the mouse pointer over the map, it will change into a hand icon. To zoom in a specific region of interest, simply click on it over the map, hold and drag it to the center. The pre-set value is 11 and it ranges from 6 to 14. You can also set the zoom level by clicking over the ‘+’ and ‘-’ located over the top left of the interactive map. Keep the default value for now.
 
-   2) Main plot window:
+   3) Main plot window:
       
       (a) Finally after setting all these parameters, click on the Update View button in the main plot window and wait for around 20 seconds for the app to update the 3-layered plot. After the view is updated, the located spill is plotted as a black disc on the interactive map as shown in following figure.
       
@@ -56,7 +57,8 @@ R, RShiny
       <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/4dcee725-58be-45d7-8d6f-18a735f2206a">
 
 
-   3) Top panel:
+   4) Top panel:
+      
       (a) Additional parameters: Hover over the tab “Select the Threshold Flow Distances and Sampling Date Range” in the top panel. Click on the ‘+’ to expand the box as shown in the following figure –
       
          <img width="547" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a1c0e4ab-8313-4eca-bb53-d9955ff0ee8d">
