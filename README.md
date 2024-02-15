@@ -58,14 +58,17 @@ R, RShiny
 
    3) Top panel:
       (a) Additional parameters: Hover over the tab “Select the Threshold Flow Distances and Sampling Date Range” in the top panel. Click on the ‘+’ to expand the box as shown in the following figure –
+      
          <img width="547" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a1c0e4ab-8313-4eca-bb53-d9955ff0ee8d">
 
       (b) After the box is expanded, you can select the threshold flow distances and sampling date ranges as shown in the following figure.
+      
          <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/e4b0cafa-341b-4a13-a77e-2b40fdf97a6d">
 
          (i) Threshold Flow Distances in km: These parameters allow you to aggregate the sampling locations of Chloride only up to a certain distance in km from the spill location going along the river flow. The selected sampling locations are shown as green and red discs on the interactive map.
             - Upstream/Unaffected: This slider allows you to change the upper bound of the distance of Upstream/Unaffected sampling locations from the spill location along the river flow. The pre-set value is 10 km.
-            - Downstream: This slider allows you to change both the lower and upper bounds of the distance of Downstream sampling locations from the spill location along the river flow. These are pre-set to 0 km and 50 km. This covers all observations upto 50 km downstream to the
+            - Downstream: This slider allows you to change both the lower and upper bounds of the distance of Downstream sampling locations from the spill location along the river flow. These are pre-set to 0 km and 50 km. This covers all observations upto 50 km downstream to the spill. Set the range as 10 km - 50 km to consider only those locations that are far from the spill location. You may observe that the red discs nearest to the black disc disappear from the plot. If you click on the black disc again, you will observe that the average concentration downstream is now 8179.63 ppb. The t-test and Wilcoxon test pvalues are still 0. This suggests that the polluting event significantly affects the downstream concentrations even in waters far away from the polluting location.
+         (ii) Sampling Date Range: These parameters allow you to aggregate the sampling concentrations of Chloride only within a certain time period. Considering the downstream observations just after the spill and otherwise may help us to differentiate between natural causes of increase in concentrations and the spill effect.
 
 
       
