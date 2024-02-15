@@ -28,10 +28,11 @@ R, RShiny
          - Enter the longitude: Here you can enter the longitude in degrees. It must be lie in the range -80.6 to -74.6. The default value is -77.3.
          - Enter the latitude: Here you can enter the longitude in degrees. It must be lie in the range -39.6 to 42.8. The default value is 41.3.
          Let us start by exploring the spill event in Pine Creek at Lycoming county. Enter the exact coordinates for this spill event with longitude as -77.32039 and latitude as 41.30454 as shown in the following figure –
-         <img width="319" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/6e2c6307-cb42-4c78-ad84-39da0c310051">
+         <img width="350" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/6e2c6307-cb42-4c78-ad84-39da0c310051">
       
       (b) Choose the spill date: This parameter allows you to choose the date of the spill event as shown in the figure below. If you don’t know the exact date of the spill event, you may enter an approximate date. The app will automatically search the closest spill event in Pennsylvania with respect to this date. The default date is set as Jan 1, 2012. Click on the date tab and choose the exact date for the Pine Creek spill event as Jan 6, 2012.
-         <img width="454" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/d300890e-5575-4eda-b1ed-2fcbae354b8b">
+      
+         <img width="500" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/d300890e-5575-4eda-b1ed-2fcbae354b8b">
       
       (c) Set the river overlay (in km): The river stream network is dense and it may take some time for the app to visualize this network on the interactive map. The river overlay parameter allows you to set the distance in km from the spill location up to which the river stream network must be plotted. The pre-set is set to 15 km which takes only 20 seconds to update. The maximum value possible is 50 km. However if you set this to 50 km, it will take more than 1 minute and 30 seconds to visualize the network. Let us keep this parameter at the default value of 15 km for now.
       (d) Enter zoom level: You may change the zoom level to explore specific regions over the interactive map. If you move the mouse pointer over the map, it will change into a hand icon. To zoom in a specific region of interest, simply click on it over the map, hold and drag it to the center. The pre-set value is 11 and it ranges from 6 to 14. You can also set the zoom level by clicking over the ‘+’ and ‘-’ located over the top left of the interactive map. Keep the default value for now.
