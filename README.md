@@ -41,19 +41,32 @@ R, RShiny
       
       (a) Finally after setting all these parameters, click on the Update View button in the main plot window and wait for around 20 seconds for the app to update the 3-layered plot. After the view is updated, the located spill is plotted as a black disc on the interactive map as shown in following figure.
       
-      <img width="564" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/158e062e-50ea-4c29-ba0c-2c79bfba1729">
+      <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/158e062e-50ea-4c29-ba0c-2c79bfba1729">
    
       The green discs point to the sampling locations of the selected analyte (which is Chloride here) upstream to the selected spill or on unaffected streams that are flowing in the main stream eventually. The red discs point to the sampling locations downstream to the selected spill. 
 
       (b) Click the black disc in the center and go through the information in the pop-up. Note that the average concentration value downstream (6522.83 ppb) is significantly higher than upstream (4454.18 ppb) (Figure 4.15). This is also reflected in the one sided t test and Wilcoxon test p values. Both are 0 (less 86 than the significance level of 0.05) indicating that both mean and median of Chloride concentrations are significantly higher downstream compared to Upstream/Unaffected streams.
 
-      <img width="558" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a57d6d2a-e975-4a2f-87b7-6e5966491641">
+      <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a57d6d2a-e975-4a2f-87b7-6e5966491641">
 
       (c) Now click over one of the sampling locations represented by the green disc. You can observe the sampling location coordinates in the form of longitude and latitude and the average concentration values over time. If you repeat this procedure for few other sampling locations over Upstream/Unaffected streams and Downstream, you will notice the average concentration values over red discs are almost always higher than the green discs.
 
       (d) Density Plot: Now click the density plot tab. This should create a density plot as shown in the following figure. Notice that that the concentration value peaks are significantly shifted towards larger values on x axis for downstream compared to upstream. This essentially tells us that higher concentration values occur more often downstream compared to Upstream/Unaffected. Note that this reinforces our conclusion of Wilcoxon test visually.
 
-      <img width="536" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/4dcee725-58be-45d7-8d6f-18a735f2206a">
+      <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/4dcee725-58be-45d7-8d6f-18a735f2206a">
+
+
+   3) Top panel:
+      (a) Additional parameters: Hover over the tab “Select the Threshold Flow Distances and Sampling Date Range” in the top panel. Click on the ‘+’ to expand the box as shown in the following figure –
+         <img width="547" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a1c0e4ab-8313-4eca-bb53-d9955ff0ee8d">
+
+      (b) After the box is expanded, you can select the threshold flow distances and sampling date ranges as shown in the following figure.
+         <img width="550" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/e4b0cafa-341b-4a13-a77e-2b40fdf97a6d">
+
+         (i) Threshold Flow Distances in km: These parameters allow you to aggregate the sampling locations of Chloride only up to a certain distance in km from the spill location going along the river flow. The selected sampling locations are shown as green and red discs on the interactive map.
+            - Upstream/Unaffected: This slider allows you to change the upper bound of the distance of Upstream/Unaffected sampling locations from the spill location along the river flow. The pre-set value is 10 km.
+            - Downstream: This slider allows you to change both the lower and upper bounds of the distance of Downstream sampling locations from the spill location along the river flow. These are pre-set to 0 km and 50 km. This covers all observations upto 50 km downstream to the
+
 
       
 
