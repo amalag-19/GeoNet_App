@@ -37,5 +37,25 @@ R, RShiny
       (c) Set the river overlay (in km): The river stream network is dense and it may take some time for the app to visualize this network on the interactive map. The river overlay parameter allows you to set the distance in km from the spill location up to which the river stream network must be plotted. The pre-set is set to 15 km which takes only 20 seconds to update. The maximum value possible is 50 km. However if you set this to 50 km, it will take more than 1 minute and 30 seconds to visualize the network. Let us keep this parameter at the default value of 15 km for now.
       (d) Enter zoom level: You may change the zoom level to explore specific regions over the interactive map. If you move the mouse pointer over the map, it will change into a hand icon. To zoom in a specific region of interest, simply click on it over the map, hold and drag it to the center. The pre-set value is 11 and it ranges from 6 to 14. You can also set the zoom level by clicking over the ‘+’ and ‘-’ located over the top left of the interactive map. Keep the default value for now.
 
+   2) Main plot window:
+      
+      (a) Finally after setting all these parameters, click on the Update View button in the main plot window and wait for around 20 seconds for the app to update the 3-layered plot. After the view is updated, the located spill is plotted as a black disc on the interactive map as shown in following figure.
+      
+      <img width="564" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/158e062e-50ea-4c29-ba0c-2c79bfba1729">
+   
+      The green discs point to the sampling locations of the selected analyte (which is Chloride here) upstream to the selected spill or on unaffected streams that are flowing in the main stream eventually. The red discs point to the sampling locations downstream to the selected spill. 
+
+      (b) Click the black disc in the center and go through the information in the pop-up. Note that the average concentration value downstream (6522.83 ppb) is significantly higher than upstream (4454.18 ppb) (Figure 4.15). This is also reflected in the one sided t test and Wilcoxon test p values. Both are 0 (less 86 than the significance level of 0.05) indicating that both mean and median of Chloride concentrations are significantly higher downstream compared to Upstream/Unaffected streams.
+
+      <img width="558" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/a57d6d2a-e975-4a2f-87b7-6e5966491641">
+
+      (c) Now click over one of the sampling locations represented by the green disc. You can observe the sampling location coordinates in the form of longitude and latitude and the average concentration values over time. If you repeat this procedure for few other sampling locations over Upstream/Unaffected streams and Downstream, you will notice the average concentration values over red discs are almost always higher than the green discs.
+
+      (d) Density Plot: Now click the density plot tab. This should create a density plot as shown in the following figure. Notice that that the concentration value peaks are significantly shifted towards larger values on x axis for downstream compared to upstream. This essentially tells us that higher concentration values occur more often downstream compared to Upstream/Unaffected. Note that this reinforces our conclusion of Wilcoxon test visually.
+
+      <img width="536" alt="image" src="https://github.com/amalag-19/GeoNet_App/assets/10363788/4dcee725-58be-45d7-8d6f-18a735f2206a">
+
+      
+
 
 
